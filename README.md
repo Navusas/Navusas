@@ -2,7 +2,7 @@
 &nbsp;
 #### Few facts about me:
 🔭 I’m a final year **Software Engineer student** <br/>
-🤔 As well as **IT Support Technician** doing _32 hours/week_
+🤔 As well as **IT Support Technician** doing _32 hours/week_\
 ⚡ Fun fact: I convert coffee into a code 😄
 <!--
 **Navusas/Navusas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
