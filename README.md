@@ -25,4 +25,4 @@ Here are some ideas to get you started:
 - SQL-T (MySQL)
 
 &nbsp;
-![Dom's Stats](https://github-readme-stats.vercel.app/api?username=Navusas&theme=midnight-purple&show_icons=true?count_private=true)
+![Dom's Stats](https://github-readme-stats.vercel.app/api?username=Navusas&theme=midnight-purple&show_icons=true&count_private=true)
