@@ -2,7 +2,7 @@
 &nbsp;
 #### Few facts about me:
 🔭 **Software Engineer** graduated with 1st at University of Huddersfield <br/>
-🤔 **IT Support Technician** dealing with SQL Server = Oracle
+🤔 **IT Support Technician** dealing with SQL Server = Oracle <br/>
 ⚡ Fun fact: I convert coffee into a code 😄
 <!--
 **Navusas/Navusas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
