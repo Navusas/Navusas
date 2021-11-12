@@ -2,7 +2,6 @@
 &nbsp;
 #### Few facts about me:
 🔭 **Software Engineer** graduated with 1st at University of Huddersfield <br/>
-🤔 **IT Support Technician** dealing with SQL Server = Oracle <br/>
 ⚡ Fun fact: I convert coffee into a code 😄
 <!--
 **Navusas/Navusas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -20,9 +19,10 @@ Here are some ideas to get you started:
 -->
 &nbsp;
 #### ✨ Making impossible possible using:
-- .NET Core
+- .NET Core 5+
 - Laravel Suite (Laravel 8, Jetstream, Livewire)
-- SQL-T (MySQL)
-
+- SQL Server (TSQL)
+- Kubernetes, and all that fancy stuff
+- 
 &nbsp;
 ![Dom's Stats](https://github-readme-stats.vercel.app/api?username=Navusas&theme=midnight-purple&show_icons=true&count_private=true)
