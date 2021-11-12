@@ -23,6 +23,6 @@ Here are some ideas to get you started:
 - Laravel Suite (Laravel 8, Jetstream, Livewire)
 - SQL Server (TSQL)
 - Kubernetes, and all that fancy stuff
-- 
+
 &nbsp;
 ![Dom's Stats](https://github-readme-stats.vercel.app/api?username=Navusas&theme=midnight-purple&show_icons=true&count_private=true)
