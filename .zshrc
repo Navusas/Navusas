@@ -13,7 +13,7 @@ export ZSH="/Users/domantas.giedraitis/.oh-my-zsh"
 #ZSH_THEME="agnoster" # see https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster
 #ZSH_THEME="af-magic"
 #ZSH_THEME="jonathan"
-ZSH_THEME="passion"
+ZSH_THEME="simple"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
