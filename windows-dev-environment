@@ -26,3 +26,8 @@
   # Locate to https://github.com/settings/keys
   # And add the value under new SSH key
   ```
+4. Install Windows PowerToys -> https://aka.ms/installpowertoys
+
+
+TODO:
+Install ZSH + Windows Terminal + WSL 2
