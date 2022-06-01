@@ -28,6 +28,10 @@
   ```
 4. Install [Windows PowerToys](https://aka.ms/installpowertoys)
 5. Install [Tye](https://github.com/dotnet/tye/blob/main/docs/getting_started.md)
+6. Install dotnet-ef tools 
+```
+dotnet tool install --global dotnet-ef
+```
 
 
 TODO:
