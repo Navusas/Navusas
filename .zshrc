@@ -115,9 +115,6 @@ source $ZSH/oh-my-zsh.sh
 #export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="$PATH:/Users/domantas.giedraitis/Dev/repos/cloning-capability/cli/spawnctl"
 
-export REPLICATED_APP=cloning-capability-app
-export REPLICATED_API_TOKEN=1d2f1243a9ea3f1ee8d14c35e6296a9ee8b63cc4ea1cccfe49c34469a959e695
-
 # Alias for tree
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
