@@ -8,6 +8,6 @@ MacOS setup
 ------------
 
 - [Homebrew](https://brew.sh/) to manage packages.
-- [iTerm2](https://www.iterm2.com/) for terminal.
+- ~[iTerm2](https://www.iterm2.com/) for terminal.~ Swapped to Warp Terminal now
 - [Oh My Zsh](https://ohmyz.sh/) for zsh + plugins.
 - [Yabai + skhd](https://cbrgm.net/post/2021-05-5-setup-macos/) for window management.
