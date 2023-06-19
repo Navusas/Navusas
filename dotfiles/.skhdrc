@@ -1,3 +1,6 @@
+# Open terminal
+alt - return : /Applications/Warp.app
+
 # quickly reload config
 ctrl + shift - q : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"; skhd --reload
 
