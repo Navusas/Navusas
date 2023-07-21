@@ -58,4 +58,6 @@ yabai -m rule --add app='Goland IDEA' title='Project Structure' manage=off
 yabai -m rule --add app='Goland IDEA' title='Preferences' manage=off
 yabai -m rule --add app='Goland IDEA' title='Edit configuration' manage=off
 
+yabai -m rule --add app='zoom.us' manage=off
+
 echo "yabai configuration loaded.."
