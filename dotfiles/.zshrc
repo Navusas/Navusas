@@ -35,3 +35,7 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 
 ## Thefuck plugin
 eval $(thefuck --alias)
+
+export PATH=/Users/domantas.giedraitis/.local/bin:$PATH
+export OPENAI_ENDPOINT=
+export OPENAI_API_KEY=
