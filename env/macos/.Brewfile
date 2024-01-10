@@ -1,6 +1,7 @@
 cask "slack"
 cask "notion"
 
+brew "zsh"
 brew "ansible"
 brew "awscli"
 brew "aztfexport"
