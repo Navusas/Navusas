@@ -1,4 +1,4 @@
-### Hi! I am Dom [aka - Navus] 👋
+### Hi! I am Dom 👋
 
 Check out [Navus.blog](https://Navus.blog) to learn more about me! 
 
