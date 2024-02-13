@@ -2,8 +2,6 @@
 
 Check out [Navus.blog](https://Navus.blog) to learn more about me! 
 
-As of May 2023, I am also [recording my personal progress/todo via Notion](https://grateful-secure-2d0.notion.site/6b8cabd87b124de3b031259aa861f79e?v=03ee62d0e832495997c6a4484810a3e8)
-
 -----
 <br/><br/>
 ![Dom's Stats](https://github-readme-stats-nine-henna-69.vercel.app/api?username=Navusas&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&show_icons=true&count_private=true)
