@@ -1,11 +1,14 @@
 # Ubuntu Dev Environment
 
 ```bash
+## Install git
+sudo apt install git
+
 ## Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Add brew to the path
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/navus/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/navus/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ## Env
 sudo apt install zsh
@@ -21,10 +24,10 @@ brew install node
 npm install pnpm --global
 
 sudo apt-get update && \
-  sudo apt-get install -y dotnet-sdk-7.0
+  sudo apt-get install -y dotnet-sdk-8.0
 
   sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-7.0
+  sudo apt-get install -y aspnetcore-runtime-8.0
 
 
   
