@@ -14,6 +14,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 brew install gh
 brew install node
+brew install docker
 
 # Couple of other stuff
 npm install pnpm --global
