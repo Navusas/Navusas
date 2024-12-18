@@ -28,6 +28,6 @@ sudo snap install rider --classic
 
 ## Login to github and follow the steps
 git config --global user.name "Navusas"
-git config --global user.email "D.Giedraitis7@gmail.com"
+git config --global user.email "32360417+Navusas@users.noreply.github.com"
 gh auth login
 ```
