@@ -29,13 +29,32 @@ HISTFILE=~/.zsh_history
 autoload -U compinit; compinit
 
 ###### My Custom config:
-## Csharp
+# C#
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
 
-## Thefuck plugin
+# Thefuck
 eval $(thefuck --alias)
 
-export PATH=/Users/domantas.giedraitis/.local/bin:$PATH
-export OPENAI_ENDPOINT=
-export OPENAI_API_KEY=
+# Fuzzy Search
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Advanced Git Aliases
+alias revertlast="git revert HEAD --no-edit && git push"
+openpr() {
+  current_branch=$(git symbolic-ref --short HEAD)
+  gh pr create --base main --head "$current_branch" --title "Automated via 'gh pr create': $1"
+}
+
+unalias g 2>/dev/null
+g() {
+  if [ $# -eq 0 ]; then
+    git status
+  else
+    git "$@"
+  fi
+}
+
+# Other Aliases
+alias l='ls -GFh'
+alias c='clear'
