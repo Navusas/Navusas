@@ -1,98 +1,59 @@
-tap "homebrew/bundle"
-tap "ngrok/ngrok"
+tap 'derailed/k9s'
+tap 'homebrew/bundle'
+tap 'ngrok/ngrok'
+tap 'hashicorp/tap'
 
-# Core
-brew "bash"
-brew "coreutils"
-brew "fzf"
-brew "gh"
-brew "git"
-brew "jq"
-brew "libpq"
-brew "thefuck"
-brew "tree"
-brew "zsh"
+brew 'cryptography'
+brew 'python@3.13'
+brew 'awscli'
+brew 'bash'
+brew 'coreutils'
+brew 'fzf'
+brew 'gh'
+brew 'git'
+brew 'gnu-sed'
+brew 'gnu-tar'
+brew 'gnutls'
+brew 'grep'
+brew 'helm'
+brew 'jq'
+brew 'k9s'
+brew 'kubernetes-cli'
+brew 'kubectx'
+brew 'lazygit'
+brew 'libpq'
+brew 'tree-sitter'
+brew 'node', link: false
+brew 'pgvector'
+brew 'pipx'
+brew 'podman'
+brew 'podman-compose'
+# Object-relational database system
+brew 'postgresql'
+# Command-line toolkit for Salesforce development
+brew 'sf'
+# SOcket CAT: netcat on steroids
+brew 'socat'
+# Tool to build, change, and version infrastructure
+brew 'hashicorp/tap/terraform'
+# Display directories as trees (with optional color/HTML output)
+brew 'tree'
+# Vi 'workalike' with many additional features
+brew 'vim'
+# UNIX shell (command interpreter)
+brew 'zsh'
+# All-in-one toolbox for developers
+cask 'devutils'
+# Voice and text chat software
+cask 'discord'
+# Developer platform
+cask 'dotnet-sdk'
+# Reverse proxy, secure introspectable tunnels to localhost
+cask 'ngrok'
+# App to write, plan, collaborate, and get organised
+cask 'notion'
+cask 'visual-studio-code'
+cask 'claude-code'
 
-# Databases
-brew "postgresql@15"
-
-# Cloud
-brew "awscli"
-brew "azure-cli"
-brew "terraform"
-
-# Languages
-brew "node"
-brew "python"
-brew "go"
-## Dotnet SDK
-tap "isen-ng/dotnet-sdk-versions"
-cask "dotnet-sdk9-0-100"
-cask "dotnet-sdk8-0-100"
-cask "dotnet-sdk7-0-400"
-cask "dotnet-sdk6-0-400"
-
-# Kubernetes
-brew "helm"
-brew "k9s"
-brew "kubernetes-cli"
-brew "kubectx"
-brew "minikube"
-
-# Other
-brew "aichat"
-brew "ansible"
-
-# Casks
-cask "discord"
-cask "docker"
-cask "firefox"
-cask "iterm2"
-cask "ngrok"
-cask "notion"
-cask "postman"
-cask "raycast"
-
-# VSCode
-cask "visual-studio-code"
-vscode "4ops.terraform"
-vscode "alefragnani.bookmarks"
-vscode "astro-build.astro-vscode"
-vscode "bradlc.vscode-tailwindcss"
-vscode "csharpier.csharpier-vscode"
-vscode "cweijan.vscode-postgresql-client2"
-vscode "davidanson.vscode-markdownlint"
-vscode "dbaeumer.vscode-eslint"
-vscode "equinusocio.vsc-community-material-theme"
-vscode "equinusocio.vsc-material-theme"
-vscode "equinusocio.vsc-material-theme-icons"
-vscode "esbenp.prettier-vscode"
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "github.github-vscode-theme"
-vscode "github.vscode-github-actions"
-vscode "hashicorp.terraform"
-vscode "ionutvmi.path-autocomplete"
-vscode "jock.svg"
-vscode "ms-azuretools.vscode-docker"
-vscode "ms-dotnettools.csdevkit"
-vscode "ms-dotnettools.csharp"
-vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-dotnettools.vscodeintellicode-csharp"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "pkief.material-icon-theme"
-vscode "prateekmahendrakar.prettyxml"
-vscode "redhat.vscode-yaml"
-vscode "redlin.remove-tabs-on-save"
-vscode "rvest.vs-code-prettier-eslint"
-vscode "shardulm94.trailing-spaces"
-vscode "simonsiefke.svg-preview"
-vscode "stylelint.vscode-stylelint"
-vscode "tomrijndorp.find-it-faster"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
-vscode "vscodeshift.mui-snippets"
-vscode "waderyan.gitblame"
-vscode "zeshuaro.vscode-python-poetry"
+brew 'nvm'
+cask 'spotify', args: { require_sha: false } # Propietary music streaming
